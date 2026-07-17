@@ -46,6 +46,15 @@ body {
     }
     main {
         header.mainmenu {
+            &.internal{
+                h1{
+                    font-size: 2rem;
+                }
+                img{
+                    height: 120px;
+                    width: 120px;
+                }
+            }
             h1 {
                 font-size: 3.6rem;
                 border-bottom: 2px solid #ffffff;
@@ -130,6 +139,14 @@ body {
                     }
                 }
             }
+        }
+        section{
+            background-color: #0009;
+            border-radius: 0.4rem;
+            margin-top: 2rem;
+            min-height: 200px;
+            width: 380px;
+
         }
     }
 }
